@@ -1,6 +1,6 @@
 ---
-title: Intro
-icon: fas fa-house-user
+title: Introduction
+icon: fas fa-laptop
 order: 1
 ---
 

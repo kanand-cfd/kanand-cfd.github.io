@@ -1,7 +1,7 @@
 ---
 title: Contact
 icon: fas fa-envelope
-order: 99
+order: 5
 ---
 
 Feel free to reach out:

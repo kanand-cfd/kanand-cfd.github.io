@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 3
 ---
 
 I'm Karan Anand, PhD — a CFD engineer who spends most of his time simulating particles that are much too small to care, but crucial enough to power the next generation of clean energy. My background spans gas-solid multiphase flow simulations, high-performance computing, and the delightful intersection of fluid dynamics and machine learning.

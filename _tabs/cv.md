@@ -1,7 +1,7 @@
 ---
 title: CV
 icon: fas fa-file-alt
-order: 3
+order: 4
 ---
 
 Download my CV:  
