@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Intro
 icon: fas fa-house-user
 order: 1
 ---
