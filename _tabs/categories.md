@@ -4,5 +4,4 @@ icon: fas fa-folder
 order: 4
 ---
 
-{% include list.html collection='categories' %}
-
+<!-- Chirpy automatically renders category links here -->
