@@ -4,5 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Hi, I’m **Karan Anand**, a PhD in Fluid Mechanics based in Toulouse, France.  
+I specialize in multiphase flow simulation, HPC, and CFD/ML fusion.
+
+Currently, I’m a Postdoctoral Researcher working on advanced modeling for fluidized beds using Euler-Euler and CFD-DEM approaches.
