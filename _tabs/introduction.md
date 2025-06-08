@@ -15,5 +15,5 @@ On this site, you’ll find:
 - My full **[CV](/cv)** and publications
 - A growing **[blog](/)** where I share updates, insights, and experiments
 
-[👉 Let's Collaborate!](/contact){: .btn .btn--primary }
+[👉 Let's Collaborate!](/contact){: .btn .btn--info }
 
