@@ -13,7 +13,7 @@ On this site, you’ll find:
 - My latest **[projects](/projects)** in CFD and simulation
 - A bit **[about me](/about)** (with humor included)
 - My full **[CV](/cv)** and publications
-- A growing **[blog](/posts)** where I share updates, insights, and experiments
+- A growing **[blog](/)** where I share updates, insights, and experiments
 
 [👉 Let's Collaborate!](/contact){: .btn .btn--primary }
 
