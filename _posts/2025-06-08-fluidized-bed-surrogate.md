@@ -12,7 +12,7 @@ The goal: replace expensive simulations with fast, data-driven predictions.
 
 👇 You can explore the full notebook below:
 
-<iframe src="/assets/notebooks/fluidized-bed-surrogate.html" width="100%" height="1000" style="border: none;"></iframe>
+<iframe src="/assets/notebooks/PartiNet_v1_FluBedSurrogate.html" width="100%" height="1000" style="border: none;"></iframe>
 
 ---
 
