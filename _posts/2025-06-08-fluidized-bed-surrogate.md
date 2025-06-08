@@ -6,7 +6,7 @@ categories: [projects, notebooks]
 tags: [cfd, surrogate-models, ml, fluidized-bed]
 ---
 
-🌟 This notebook uses synthetic fluidized bed theory and trains machine learning models to predict pressure drop (\$\Delta P\$).
+## This notebook uses synthetic fluidized bed theory and trains machine learning models to predict pressure drop (\$\Delta P\$).
 
 ---
 
