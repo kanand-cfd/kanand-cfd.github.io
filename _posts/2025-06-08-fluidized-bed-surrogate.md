@@ -51,29 +51,42 @@ g = 9.81
 
 ### 🔹 Archimedes Number
 
-$$Ar = \frac{d_p^3 \rho_g (\rho_p - \rho_g) \cdot g}{\mu_g^2}$$
+$$
+Ar = \frac{d_p^3 \rho_g (\rho_p - \rho_g) \cdot g}{\mu_g^2}
+$$
 
-### 🔹 Minimum Fluidization Velocity (\$U\_{mf}\$)
+### 🔹 Minimum Fluidization Velocity ($U_{mf}$)
 
-$$Re_{mf} = \sqrt{33.72 + 0.0408 \cdot Ar} - 33.7$$
+$$
+Re_{mf} = \sqrt{33.72 + 0.0408 \cdot Ar} - 33.7
+$$
 
-$$U_{mf} = \frac{Re_{mf} \cdot \mu_g}{\rho_g \cdot d_p}$$
+$$
+U_{mf} = \frac{Re_{mf} \cdot \mu_g}{\rho_g \cdot d_p}
+$$
 
-### 🔹 Pressure Drop (\$\Delta P\$)
+### 🔹 Pressure Drop ($\Delta P$)
 
-For \$U\_g > U\_{mf}\$:
+For $U_g > U_{mf}$:
 
-$$\Delta P = (\rho_p - \rho_g) g H$$
+$$
+\Delta P = (\rho_p - \rho_g) g H
+$$
 
-For \$U\_g \leq U\_{mf}\$:
+For $U_g \leq U_{mf}$:
 
-$$\Delta P = (\rho_p - \rho_g) g H \left( \frac{U_g}{U_{mf}} \right)$$
+$$
+\Delta P = (\rho_p - \rho_g) g H \left( \frac{U_g}{U_{mf}} \right)
+$$
 
-### 🔹 Solid Holdup (\$\varepsilon\_s\$)
+### 🔹 Solid Holdup ($\varepsilon_s$)
 
-$$\varepsilon_s = \text{clip} \left(0.6 - 0.25 \cdot \frac{U_g}{U_{mf} + 1e-5}, 0.1, 0.6 \right)$$
+$$
+\varepsilon_s = \text{clip} \left(0.6 - 0.25 \cdot \frac{U_g}{U_{mf} + 1e-5}, 0.1, 0.6 \right)
+$$
 
 ---
+
 
 ## 🧲 Dataset Construction
 
