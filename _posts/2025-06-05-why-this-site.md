@@ -3,7 +3,7 @@ layout: post
 title: "Why This Site Exists"
 date: 2025-06-05 08:00:00 +0200
 categories: [portfolio, cfd]
-tags: [CFD, multiphase, research, machine learning]
+tags: [cfd, multiphase, research, machine-learning]
 ---
 
 Welcome to my digital notebook.
