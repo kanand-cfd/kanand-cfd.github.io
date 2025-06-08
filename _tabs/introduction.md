@@ -15,5 +15,4 @@ On this site, you’ll find:
 - My full **[CV](/cv)** and publications
 - A growing **[blog](/)** where I share updates, insights, and experiments
 
-[👉 Let's Collaborate!](/contact){: .btn .btn--info }
-
+[👉 Let's Collaborate!](/contact){: style="color: #fff; background-color: #ff9800; padding: 0.4em 1em; border-radius: 6px; text-decoration: none;" }
