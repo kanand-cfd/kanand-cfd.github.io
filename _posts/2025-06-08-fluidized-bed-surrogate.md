@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Surrogate Modeling for Pressure Drop using PartiNet"
-date: 2025-06-07 08:00:00 +0200
+date: 2025-06-08 08:00:00 +0200
 categories: [projects, notebooks]
 tags: [cfd, surrogate-models, ml, fluidized-bed]
 ---
