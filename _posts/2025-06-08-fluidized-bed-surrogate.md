@@ -4,7 +4,7 @@ title: "Surrogate Modeling for Pressure Drop using PartiNet"
 date: 2025-06-07 08:00:00 +0200
 categories: [projects, notebooks]
 tags: [cfd, surrogate-models, ml, fluidized-bed]
--------------------------------------------------
+---
 
 🌟 This notebook uses synthetic fluidized bed theory and trains machine learning models to predict pressure drop (\$\Delta P\$).
 
