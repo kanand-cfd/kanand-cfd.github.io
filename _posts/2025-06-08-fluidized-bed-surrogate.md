@@ -6,7 +6,7 @@ categories: [projects, notebooks]
 tags: [cfd, surrogate-models, ml, fluidized-bed]
 ---
 
-## This notebook uses synthetic fluidized bed theory and trains machine learning models to predict pressure drop (\$\Delta P\$).
+## This notebook uses synthetic fluidized bed theory and trains machine learning models to predict pressure drop \(\Delta P\).
 
 ---
 
@@ -54,7 +54,7 @@ $$
 Ar = \frac{d_p^3 \rho_g (\rho_p - \rho_g) \cdot g}{\mu_g^2}
 $$
 
-### 🔹 Minimum Fluidization Velocity ($U_{mf}$)
+### 🔹 Minimum Fluidization Velocity \(U_{mf}\)
 
 $$
 Re_{mf} = \sqrt{33.72 + 0.0408 \cdot Ar} - 33.7
@@ -64,7 +64,7 @@ $$
 U_{mf} = \frac{Re_{mf} \cdot \mu_g}{\rho_g \cdot d_p}
 $$
 
-### 🔹 Pressure Drop ($\Delta P$)
+### 🔹 Pressure Drop \(\Delta P\)
 
 For $U_g > U_{mf}$:
 
@@ -78,7 +78,7 @@ $$
 \Delta P = (\rho_p - \rho_g) g H \left( \frac{U_g}{U_{mf}} \right)
 $$
 
-### 🔹 Solid Holdup ($\varepsilon_s$)
+### 🔹 Solid Holdup \(\varepsilon_s\)
 
 $$
 \varepsilon_s = \text{clip} \left(0.6 - 0.25 \cdot \frac{U_g}{U_{mf} + 1e-5}, 0.1, 0.6 \right)
