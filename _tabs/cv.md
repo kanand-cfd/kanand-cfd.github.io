@@ -68,7 +68,7 @@ order: 4
   <div class="timeline-title">Master’s in Computational Fluid Dynamics</div>
   <div class="timeline-sub">UPES, Dehradun, India — 2017–2019</div>
   <ul>
-    <li>Focused on computational methods employed in CFD</li>
+    <li>Focused on computational methods employed in CFD for aerospace applications</li>
   </ul>
 </div>
 
