@@ -66,13 +66,13 @@ $$
 
 ### 🔹 Pressure Drop \(\Delta P\)
 
-For $U_g > U_{mf}$:
+$$\text{For} U_g > U_{mf}$$:
 
 $$
 \Delta P = (\rho_p - \rho_g) g H
 $$
 
-For $U_g \leq U_{mf}$:
+$$\text{For} U_g \leq U_{mf}$$:
 
 $$
 \Delta P = (\rho_p - \rho_g) g H \left( \frac{U_g}{U_{mf}} \right)
