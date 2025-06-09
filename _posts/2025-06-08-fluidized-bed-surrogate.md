@@ -2,7 +2,6 @@
 layout: post
 title: "Surrogate Modeling for Pressure Drop using PartiNet"
 date: 2025-06-08 08:00:00 +0200
-mathjax: true
 categories: [projects, notebooks]
 tags: [cfd, surrogate-models, ml, fluidized-bed]
 ---
@@ -67,13 +66,13 @@ $$
 
 ### 🔹 Pressure Drop \(\Delta P\)
 
-$$\text{For} U_g > U_{mf}$$:
+$$\text{For } U_g > U_{mf}$$:
 
 $$
 \Delta P = (\rho_p - \rho_g) g H
 $$
 
-$$\text{For} U_g \leq U_{mf}$$:
+$$\text{For } U_g \leq U_{mf}$$:
 
 $$
 \Delta P = (\rho_p - \rho_g) g H \left( \frac{U_g}{U_{mf}} \right)
