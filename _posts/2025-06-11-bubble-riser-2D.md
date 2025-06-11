@@ -2,9 +2,9 @@
 layout: post
 title: "Bubble rise through water in 2D using Basilisk"
 math: true
-date: 2025-06-11 16:00:00 +0200
+date: 2025-06-11 08:00:00 +0200
 categories: [projects]
-tags: [cfd, vof, ml, basilisl]
+tags: [cfd, vof, ml, basilisk, multiphase]
 ---
 
 # Predicting Bubble Rise Velocity in Liquids using ML and Basilisk
