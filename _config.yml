@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: Karan Anand, PhD # the main title
 
-tagline: CFD|Multiphase Flows|ML # it will display as the subtitle
+tagline: Physics|Simulations|ML # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   CFD engineer specialized in numerical simulation, multiphase flow modeling and HPC.
