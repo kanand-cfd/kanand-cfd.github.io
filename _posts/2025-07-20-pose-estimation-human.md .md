@@ -13,13 +13,13 @@ tags: [ml, computer-vision, convolutional-neural-networks]
 
 ---
 
-## 🧐 Motivation
+## Motivation
 
 Human pose estimation is a fundamental task in computer vision, aiming to predict key joint positions (like head, shoulders, wrists, etc.) from an image. This project explores a bottom-up keypoint detection approach using heatmaps and builds the training pipeline from scratch using COCO keypoints data.
 
 ---
 
-## 📊 Project Objectives
+## Project Objectives
 
 * Predict 17 body keypoints per person using the COCO format
 * Generate ground truth heatmaps as Gaussian blobs
@@ -31,7 +31,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## 📂 Dataset Preparation
+## Dataset Preparation
 
 * Subset extracted from COCO Keypoints 2017
 * Images filtered to include at least one visible person with valid keypoints
@@ -41,7 +41,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## 🔧 Architecture
+## Architecture
 
 ### 1. **Encoder**
 
@@ -59,7 +59,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## ⚖️ Loss Functions
+## Loss Functions
 
 * **Heatmap Loss**: `BCEWithLogitsLoss`
 * **Coordinate Loss**: `L1Loss` (between soft-argmax output and ground truth)
@@ -68,14 +68,14 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 * **PCK\@0.2**: Percentage of Correct Keypoints within 20% of torso size
 * **Visualizations**: Ground truth vs predicted keypoints overlayed on images
 
 ---
 
-## 📊 Results
+## Results
 
 * Best performance: **PCK\@0.2 ≈ 0.51** (on 2000 images, UNet decoder)
 * Training for 30 epochs yielded visible improvement in heatmap localization
@@ -83,7 +83,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## 🤔 Key Observations
+## Key Observations
 
 * Ground truth heatmaps must match model output resolution to avoid misalignment
 * SimplePoseNet was faster but underfit difficult joints
@@ -92,7 +92,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## ⚠️ Known Issues
+## Known Issues
 
 * **Multi-person ambiguity**: Only the first visible person is supervised; keypoints may sometimes be projected onto other individuals in crowded scenes
 * **Pose structure mismatch**: Even when keypoints are in the right area, the relative arrangement often does not match the skeleton
@@ -100,7 +100,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## 🎓 What I Learned
+## What I Learned
 
 * Combining heatmap supervision with coordinate decoding improves spatial precision
 * U-Net style decoders can enhance weak joints but require careful tuning
@@ -109,7 +109,7 @@ Human pose estimation is a fundamental task in computer vision, aiming to predic
 
 ---
 
-## ✏️ Next Steps
+## Next Steps
 
 * Add structural priors or pose refinement modules
 * Experiment with hourglass or transformer decoders
