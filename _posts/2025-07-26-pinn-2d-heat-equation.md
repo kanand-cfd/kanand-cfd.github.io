@@ -224,7 +224,7 @@ x_bc.shape, y_bc.shape
 
 
     
-![png](PINN/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_11_0.png)
+![png](/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_11_0.png)
     
 
 
@@ -449,7 +449,7 @@ evaluate(model, alpha, t_eval=1.0)
 
 
     
-![png](PINN/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_20_0.png)
+![png](/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_20_0.png)
     
 
 
@@ -487,7 +487,7 @@ error_visualization(model, alpha, t_eval=1.0)
 
 
     
-![png](PINN/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_21_0.png)
+![png](/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_21_0.png)
     
 
 
@@ -10008,7 +10008,7 @@ evaluate(model_Hard, alpha, t_eval=1.0)
 
 
     
-![png](PINN/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_24_0.png)
+![png](/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_24_0.png)
     
 
 
@@ -10019,7 +10019,7 @@ error_visualization(model_Hard, alpha, t_eval=1.0)
 
 
     
-![png](PINN/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_25_0.png)
+![png](/assets/notebooks/PINN_2D_HeatEquation_files/PINN_2D_HeatEquation_25_0.png)
     
 
 
